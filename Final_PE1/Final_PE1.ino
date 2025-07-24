@@ -369,17 +369,7 @@ void loop(){
     remove_trend(ppg2_data, detrended2, PPG_LEN, WINDOW);
     normalize_minmax(detrended2, normalized2, PPG_LEN);
     float spo2 = estimate_spo2(normalized2, normalized, PPG_LEN);
-
-
-    
     float estimate_spo2(float* ir, float* red, int len);
-
-    if (!isnan(bpm)) {
-      Serial.print("✅ BPM estimado: ");
-      Serial.println(bpm, 2);
-    } else {
-      Serial.println("❌ No se pudo estimar el BPM.");
-    }
 
     if (deviceConnected) {
     // Generar datos aleatorios simulados
