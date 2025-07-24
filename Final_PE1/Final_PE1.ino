@@ -376,7 +376,7 @@ void loop(){
       float temperatura = bmp.readTemperature();
       
       //int spo2 = random(95, 100);       // Oxigenación
-      //float temp = random(360, 380) / 10.0;  // Temperatura entre 36.0 y 38.0
+      //float temp = random(360, 380) / 10.0;  // Temperatura 
   
       String json = "{\"hr\":" + String(bpm) +
                     ",\"spo2\":" + String(spo2) +
