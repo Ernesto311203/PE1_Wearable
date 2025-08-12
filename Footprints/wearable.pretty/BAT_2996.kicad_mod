@@ -1,0 +1,347 @@
+(footprint "BAT_2996"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Battery Socket for LR44 / 357")
+	(property "Reference" "REF**"
+		(at -3.411 -7.142 0)
+		(layer "F.SilkS")
+		(uuid "6d03d51e-74de-46de-93bc-8e281c15a059")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT_2996"
+		(at -1.52 8.165 0)
+		(layer "F.Fab")
+		(uuid "6cbb55f0-6f00-4fb3-a083-c43dd249b074")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46188b32-acb8-42c5-bc74-37b1330d9131")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8000168b-7adf-4961-b001-7727c5c0e079")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.605 -5.345)
+		(end 6.605 -5.345)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14a93530-ee05-4a1f-8e5b-88007652bb12")
+	)
+	(fp_line
+		(start -6.605 -1.91)
+		(end -6.605 -5.345)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44658758-8332-4233-a010-10572f163e51")
+	)
+	(fp_line
+		(start -6.605 1.91)
+		(end -6.605 3.57)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dbd192b-089c-4c27-9688-2cc9e88d10c6")
+	)
+	(fp_line
+		(start -6.605 3.57)
+		(end -3.57 6.725)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18c6fb9c-112d-4253-930a-38649fb4d554")
+	)
+	(fp_line
+		(start -3.57 6.725)
+		(end 3.57 6.725)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e8ca2c6-c07f-480e-babf-9411571f54cf")
+	)
+	(fp_line
+		(start 3.57 6.725)
+		(end 6.605 3.57)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fcc72b6-ee77-4f66-a31f-2615dee20e5a")
+	)
+	(fp_line
+		(start 6.605 -5.345)
+		(end 6.605 -1.91)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19aabc72-ab81-4799-951c-1b49f4ef9fe4")
+	)
+	(fp_line
+		(start 6.605 3.57)
+		(end 6.605 1.91)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6392c64-81f0-4a03-9cc9-f6390bcd45bd")
+	)
+	(fp_line
+		(start -9.14 -1.84)
+		(end -9.14 1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b7991e7-5912-4f2d-97f0-0bb09194aec5")
+	)
+	(fp_line
+		(start -9.14 1.84)
+		(end -6.855 1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11052117-00c1-4639-83b8-eb6bc9da6134")
+	)
+	(fp_line
+		(start -6.855 -6.05)
+		(end -6.855 -1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40c01d04-3501-4dde-843f-80cc2e85843b")
+	)
+	(fp_line
+		(start -6.855 -1.84)
+		(end -9.14 -1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b33b842-d4c6-4728-a5d5-08a191aa385d")
+	)
+	(fp_line
+		(start -6.855 1.84)
+		(end -6.855 6.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0473cdc-8c0f-4c48-be4c-8393bbb4d8f1")
+	)
+	(fp_line
+		(start -6.855 6.975)
+		(end 6.855 6.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4b68389-382c-4b32-9b96-3360af14861a")
+	)
+	(fp_line
+		(start 6.855 -6.05)
+		(end -6.855 -6.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7a7b0f0-fe7e-4bcd-a347-31628dad1bc9")
+	)
+	(fp_line
+		(start 6.855 -1.84)
+		(end 6.855 -6.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7333369f-b4b4-45c1-9b99-0df0fe6f8a3d")
+	)
+	(fp_line
+		(start 6.855 1.84)
+		(end 9.14 1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eca1f1bc-4955-4a4b-8dd2-7b1d8f679698")
+	)
+	(fp_line
+		(start 6.855 6.975)
+		(end 6.855 1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "480cf35a-186b-4e88-b5c0-c4e792ccc45b")
+	)
+	(fp_line
+		(start 9.14 -1.84)
+		(end 6.855 -1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a59838bc-faac-4f54-98aa-3b41864dce08")
+	)
+	(fp_line
+		(start 9.14 1.84)
+		(end 9.14 -1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53b413ce-8112-46ba-823a-0af80e2cd2c2")
+	)
+	(fp_line
+		(start -6.605 -5.345)
+		(end 6.605 -5.345)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b52c57a8-89fe-486b-8899-41e62238c1cf")
+	)
+	(fp_line
+		(start -6.605 3.57)
+		(end -6.605 -5.345)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa549485-26d9-4013-ae83-d038fc9d56a4")
+	)
+	(fp_line
+		(start -3.57 6.725)
+		(end -6.605 3.57)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a4d4bc7-10ff-4e51-b1b6-238144392f0d")
+	)
+	(fp_line
+		(start 3.57 6.725)
+		(end -3.57 6.725)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81a956f1-4ec2-4dc8-a424-91664e54fc67")
+	)
+	(fp_line
+		(start 6.605 -5.345)
+		(end 6.605 3.57)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65fbbc61-2a81-4732-9ede-e13a52a7219d")
+	)
+	(fp_line
+		(start 6.605 3.57)
+		(end 3.57 6.725)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5f3c8ec-c925-42f6-b1a3-c49548df3282")
+	)
+	(pad "N" smd rect
+		(at 0 0)
+		(size 3.96 3.96)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1c9ea196-dfa0-4726-b4c4-e3b27ca026b0")
+	)
+	(pad "P1" smd rect
+		(at -7.3 0)
+		(size 3.18 3.18)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "eddfe469-b91d-4740-b099-f48b6fce2450")
+	)
+	(pad "P2" smd rect
+		(at 7.3 0)
+		(size 3.18 3.18)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cc5ac5be-e089-4d04-8cf9-e0ee4c105ef9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/2996.step"
+		(offset
+			(xyz 0 -6.25 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
