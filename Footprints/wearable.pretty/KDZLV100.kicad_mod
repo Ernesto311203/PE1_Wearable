@@ -1,0 +1,254 @@
+(footprint "KDZLV100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Low Power RED LED with VF=1V8")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0.37 -3.88 0)
+		(layer "F.SilkS")
+		(uuid "44d51e10-4efd-4306-a3d0-c2ff076e36ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15875)
+			)
+		)
+	)
+	(property "Value" "KDZLV100"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b78078da-50dc-46b4-824a-6af1a20659ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed551fd5-7199-4f37-bf69-9d9d6ad3ca94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bcd59c0-8f3f-4276-a178-ed2815b28c2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -0.6)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83582566-db20-42ca-b09c-34188e8a5dff")
+	)
+	(fp_line
+		(start 0 -2.6)
+		(end 0 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2e66b0b-e907-4203-9740-607312d01229")
+	)
+	(fp_line
+		(start 0 -2.5)
+		(end 0 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e5fbf14-5f01-487f-afce-f459ccde1a2f")
+	)
+	(fp_line
+		(start 0 -2.5)
+		(end 0 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27b262a3-1300-47ae-ac49-dd09c013341e")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3bb3664-1b1f-4b53-a470-cc75cc07e523")
+	)
+	(fp_arc
+		(start 0 -2.6)
+		(mid 0.05 -2.55)
+		(end 0 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0df96843-4584-46d4-863f-741d052ff397")
+	)
+	(fp_arc
+		(start 0 -2.6)
+		(mid 0.05 -2.55)
+		(end 0 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1eac8b3e-847a-46d9-80a7-e16cb1237efe")
+	)
+	(fp_arc
+		(start 0 -2.5)
+		(mid -0.05 -2.55)
+		(end 0 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48ce96be-8125-43f0-b442-54d61bb6518b")
+	)
+	(fp_line
+		(start -1.8 -2.95)
+		(end 1.8 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "640a60c1-5349-4175-aad8-4695643c4bd4")
+	)
+	(fp_line
+		(start -1.8 2.95)
+		(end -1.8 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e19b7d6c-9e05-4a93-9b98-fa6e61697a04")
+	)
+	(fp_line
+		(start 1.8 -2.95)
+		(end 1.8 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f314e327-f350-4135-aaf5-600f216ec3b1")
+	)
+	(fp_line
+		(start 1.8 2.95)
+		(end -1.8 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0324531-47fc-4533-aebb-71413ed83ac7")
+	)
+	(fp_line
+		(start -0.8 -1.3)
+		(end 0.8 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac1a9c2f-89e0-4c92-b1ac-b1592987adcd")
+	)
+	(fp_line
+		(start -0.8 1.3)
+		(end -0.8 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "111ff8e0-4f31-44d2-bcad-e1f4b1062741")
+	)
+	(fp_line
+		(start 0.8 -1.3)
+		(end 0.8 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3b2b289-ea58-420b-a899-4e0a0f6ff5c7")
+	)
+	(fp_line
+		(start 0.8 1.3)
+		(end -0.8 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3139c8af-9d17-4dcc-86d4-6faa686aac72")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.26 3.96 0)
+		(layer "F.Fab")
+		(uuid "7c58e88f-9452-426e-8793-29aa12a29cf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15875)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.525 90)
+		(size 0.85 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c1b32673-350f-4bd8-a0f1-baafbe9f68e2")
+	)
+	(pad "2" smd rect
+		(at 0 1.525 90)
+		(size 0.85 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "45b2a216-cea8-46b2-bd64-cd158d80774e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/SML-P11UTT86R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 3.2 2 2.3)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

@@ -1,0 +1,160 @@
+(footprint "INDC2016X180N_6_8uH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor for 6.8 uH")
+	(property "Reference" "REF**"
+		(at -0.46 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "4a84c162-19c3-4a71-9efa-f55907b83326")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Value" "INDC2016X180N_6_8uH"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "a935c73a-af6f-4bdf-8f21-529a1f12bc06")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e77c1f91-3ae9-4d71-aa35-303b5b32d8b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c6aa550-cb99-450b-b74a-fdb1d476d564")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.708 -1.158)
+		(end 1.708 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d72bda4-54f2-485d-87b4-9bcf1402b176")
+	)
+	(fp_line
+		(start -1.708 1.158)
+		(end -1.708 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b674dac0-b287-4693-a133-de1ac6f918e6")
+	)
+	(fp_line
+		(start -1.708 1.158)
+		(end 1.708 1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd83bda6-f88d-4223-a405-82c4d7527118")
+	)
+	(fp_line
+		(start 1.708 1.158)
+		(end 1.708 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecc5f5b2-ad96-4720-a32f-09828b3c26de")
+	)
+	(fp_line
+		(start -1.1 0.9)
+		(end -1.1 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09387e49-499b-498b-ae37-df662b34581d")
+	)
+	(fp_line
+		(start 1.1 -0.9)
+		(end -1.1 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4794660-50a0-4fba-9756-02b0b144516d")
+	)
+	(fp_line
+		(start 1.1 0.9)
+		(end -1.1 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44d75c37-c97a-4517-87e8-7b933796aa19")
+	)
+	(fp_line
+		(start 1.1 0.9)
+		(end 1.1 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0567d89-55ff-4549-88dd-4bbe745ae42c")
+	)
+	(pad "1" smd rect
+		(at -0.89 0)
+		(size 1.14 1.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4fb62ef0-16c7-4e9e-bd28-ef6d2f40367a")
+	)
+	(pad "2" smd rect
+		(at 0.89 0)
+		(size 1.14 1.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "319724ca-9ec3-4412-b020-6810e2976411")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/LBM2016T6R8J.step"
+		(offset
+			(xyz 0 -0.9 0.77)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
