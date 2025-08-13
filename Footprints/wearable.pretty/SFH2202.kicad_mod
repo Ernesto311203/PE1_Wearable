@@ -1,0 +1,203 @@
+(footprint "SFH2202"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Photodiode")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at -1.21 -4.07 0)
+		(layer "F.SilkS")
+		(uuid "1dee6c20-c792-4413-ac88-54473e21d4a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SFH2202"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d5af3dc2-02bf-413a-b7b3-a65eabc6a1f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1eb9455-aafe-487b-a81b-224ae51b0c8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1e3075b-9c3c-4bf7-abe7-e57951519f03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.045 -2)
+		(end 2.045 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58d313f0-92b9-419f-a987-274e360e6d48")
+	)
+	(fp_line
+		(start -2.045 2)
+		(end 2.045 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d605ea67-e321-4da5-9c32-c26987803dfe")
+	)
+	(fp_line
+		(start -3.665 -3)
+		(end 3.665 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e1f39c7-b5c5-40c5-873e-e847c90e27c8")
+	)
+	(fp_line
+		(start -3.665 3)
+		(end -3.665 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "45134cc9-d956-479e-bbc7-7703e3b923e8")
+	)
+	(fp_line
+		(start 3.665 -3)
+		(end 3.665 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c6b4628-5cae-487e-9b37-e99f1b686063")
+	)
+	(fp_line
+		(start 3.665 3)
+		(end -3.665 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "220054fd-103c-4f58-a106-ad76d203a557")
+	)
+	(fp_line
+		(start -2.045 -2)
+		(end 2.045 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5282ba18-63eb-4fa1-8b3a-30223ced46c3")
+	)
+	(fp_line
+		(start -2.045 2)
+		(end -2.045 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e768ecf1-ed1d-4f9f-95b8-f0e4b8f80342")
+	)
+	(fp_line
+		(start 2.045 -2)
+		(end 2.045 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a2f0dae-893b-4b9a-b001-53c247472e02")
+	)
+	(fp_line
+		(start 2.045 2)
+		(end -2.045 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d6355cb-04b6-4aaa-8cad-995417e4d9f0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.38 4.22 0)
+		(layer "F.Fab")
+		(uuid "1d06a31e-49a8-442f-8b57-68d15dc8e62f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.05 0)
+		(size 0.37 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8ec740a1-973e-49a1-8ecd-4228bdb81973")
+	)
+	(pad "2" smd rect
+		(at 2.05 0)
+		(size 0.37 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "729b6b41-9fe3-4cf1-974d-015b7ad03705")
+	)
+	(pad "3" smd rect
+		(at -2.45 0)
+		(size 0.43 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce0a9efa-7356-473f-a7ae-3d30b0d82dbf")
+	)
+	(pad "4" smd rect
+		(at 2.45 0)
+		(size 0.43 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2859b4cb-1321-4d41-bdbb-7f62cb2493d3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/SFH_2202.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

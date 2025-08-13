@@ -1,0 +1,249 @@
+(footprint "SFH7050A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED HUB")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0.21 -3.36 0)
+		(layer "F.SilkS")
+		(uuid "9561f953-dfcb-450f-a9ae-26131fd04036")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SFH7050A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5102d0bd-3327-4eab-8753-2210b2d522fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d947c389-7889-4558-90c3-df2b9241e0cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78627fff-3381-4065-8fa2-9c5eb6a8a361")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.965 -1.8)
+		(end -1.965 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72bf8f3e-0878-44c3-b305-326e89ca1ae4")
+	)
+	(fp_line
+		(start -1.965 -1.7)
+		(end -1.965 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94161aa1-d99e-4656-af46-0f77ecb448f2")
+	)
+	(fp_arc
+		(start -1.965 -1.8)
+		(mid -1.915 -1.75)
+		(end -1.965 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a87fd923-2466-4e24-a4dc-48c3849c3396")
+	)
+	(fp_arc
+		(start -1.965 -1.7)
+		(mid -2.015 -1.75)
+		(end -1.965 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6df5add9-d9b3-4cf3-9bff-05cd98be63d4")
+	)
+	(fp_line
+		(start -3.35 -2.25)
+		(end -3.35 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2777bb2d-c1cd-4e23-aede-e523bf64c246")
+	)
+	(fp_line
+		(start -3.35 2.25)
+		(end 3.35 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae13d41e-12f2-475a-9bd2-903fd09ea887")
+	)
+	(fp_line
+		(start 3.35 -2.25)
+		(end -3.35 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6aa7d86e-ead7-443a-8275-5e003e0a8289")
+	)
+	(fp_line
+		(start 3.35 2.25)
+		(end 3.35 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e9f12bd-870b-4157-a1bf-40174fb248be")
+	)
+	(fp_line
+		(start -2.35 -1.25)
+		(end -2.35 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50b8aa96-93c7-41d4-a8f3-f30c11ecf806")
+	)
+	(fp_line
+		(start -2.35 1.25)
+		(end 2.35 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64b92704-1e62-4fea-943d-f1640b0b0477")
+	)
+	(fp_line
+		(start 2.35 -1.25)
+		(end -2.35 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a4ad425-ee88-44d5-ba94-1ab44f6611c2")
+	)
+	(fp_line
+		(start 2.35 1.25)
+		(end 2.35 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fca86c5f-d6af-4a71-9786-8bbed6810caf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.39 3.36 0)
+		(layer "F.Fab")
+		(uuid "2c303ee9-c710-4ca3-9855-900f6718078a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2 -0.9)
+		(size 0.5 0.501)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1776e3af-7a15-4b92-afbc-142074eac3d8")
+	)
+	(pad "2" smd rect
+		(at -0.69 -0.9)
+		(size 0.5 0.501)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bdf59d16-2993-436d-ab21-1f80e608c5d9")
+	)
+	(pad "3" smd rect
+		(at 0.69 -0.9)
+		(size 0.5 0.501)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "737f0f95-765a-4a17-bf0b-c280068e6930")
+	)
+	(pad "4" smd rect
+		(at 2 -0.9)
+		(size 0.5 0.501)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4452195-28dc-4185-a278-9f0f39ec0a81")
+	)
+	(pad "5" smd rect
+		(at 2 0.9)
+		(size 0.5 0.501)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68023ee8-63a9-4233-93d3-6ae08c322d2f")
+	)
+	(pad "6" smd rect
+		(at 0.69 0.9)
+		(size 0.5 0.501)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ebd1c9c4-49d9-49ff-b59c-728b30c19ea7")
+	)
+	(pad "7" smd rect
+		(at -0.69 0.9)
+		(size 0.5 0.501)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f82d542c-1561-4fdc-8108-16ce3184b819")
+	)
+	(pad "8" smd rect
+		(at -2 0.9)
+		(size 0.5 0.501)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aaf6578b-a97d-4407-aa74-89f769a0e0c1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/SFH_7050A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
