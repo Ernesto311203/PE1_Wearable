@@ -1,0 +1,42 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b9ee97f5-31fa-4fe0-a62c-29a829052439")
+	(paper "A4")
+	(lib_symbols)
+	(text "Project: WEARABLE\nEquipo G1 - AFE Schematic\n\n"
+		(exclude_from_sim no)
+		(at 178.562 174.244 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "487a220f-6cc8-46e0-9a42-cbba04bc9e60")
+	)
+	(text "12/08/2025"
+		(exclude_from_sim no)
+		(at 206.502 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8030aa20-8a1f-4e7e-9861-58cea82763ff")
+	)
+	(text "3\n"
+		(exclude_from_sim no)
+		(at 268.732 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e723ba8-9346-47f6-89dd-c4c67e0168df")
+	)
+)

@@ -1,0 +1,160 @@
+(footprint "INDC2012X145N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor for 10 uH")
+	(property "Reference" "REF**"
+		(at -0.46 -1.32 0)
+		(layer "F.SilkS")
+		(uuid "746351ff-12eb-4879-9fd0-35165a92553a")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.049213)
+			)
+		)
+	)
+	(property "Value" "INDC2012X145N"
+		(at 0.03 1.33 0)
+		(layer "F.Fab")
+		(uuid "a4aac88f-912d-406d-81ec-7c5a1ff57255")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.049213)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bfce17e-fc03-4c2d-9a79-bb2200327516")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c850a9fd-5492-4696-93ac-da9aa0f8f475")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.708 -0.983)
+		(end 1.708 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c9a0dcf-9a03-4375-8d96-cb46aeaa97fb")
+	)
+	(fp_line
+		(start -1.708 0.983)
+		(end -1.708 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e881c7f1-0bcf-4495-86aa-72f4dac9d475")
+	)
+	(fp_line
+		(start -1.708 0.983)
+		(end 1.708 0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1469f1dc-9a33-4161-a726-e0a824ae6223")
+	)
+	(fp_line
+		(start 1.708 0.983)
+		(end 1.708 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3dca959b-ccda-4299-a7af-625b4d8a72f3")
+	)
+	(fp_line
+		(start -1 0.63)
+		(end -1 -0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "215d7aec-5874-407f-bfd3-3e50d19a4c43")
+	)
+	(fp_line
+		(start 1 -0.63)
+		(end -1 -0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8929e0bf-9bb7-44f4-bb92-f9986039db23")
+	)
+	(fp_line
+		(start 1 0.63)
+		(end -1 0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d0d6265-f314-4271-891c-1a7a17251b0e")
+	)
+	(fp_line
+		(start 1 0.63)
+		(end 1 -0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e4675ef-9e87-4674-af33-2ef13375ded4")
+	)
+	(pad "1" smd rect
+		(at -0.86 0)
+		(size 1.2 1.47)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5b8b9036-4488-42b1-ad1a-fc4a453db52f")
+	)
+	(pad "2" smd rect
+		(at 0.86 0)
+		(size 1.2 1.47)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "104c6561-641a-48c3-ae17-3c5e751dc439")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/MLZ2012M100HT000.step"
+		(offset
+			(xyz 0 -0.74 0.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

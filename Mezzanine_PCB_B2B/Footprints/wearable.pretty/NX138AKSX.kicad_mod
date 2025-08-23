@@ -1,0 +1,257 @@
+(footprint "NX138AKSX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MOSFET for LED driving")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0.06 -3.18 0)
+		(layer "F.SilkS")
+		(uuid "92ecca4a-ae6e-4b85-8c12-8fee2df040d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15875)
+			)
+		)
+	)
+	(property "Value" "NX138AKSX"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ef4a8cf9-7313-4d61-b371-31929f09c190")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b16790ba-6786-47ae-86b8-76d2d6d2c4ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5eaa807-64a9-4844-b698-f704026d1ccc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.2)
+		(end -1 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6be21795-b5bd-4e01-a3ac-50b94e271a50")
+	)
+	(fp_line
+		(start -0.75 1.6)
+		(end -0.75 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cf2bd8a-b66f-40c9-b578-bfe14ca667bc")
+	)
+	(fp_line
+		(start -0.75 1.7)
+		(end -0.75 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f51e00a-72e8-43ac-b3cb-3b6701b40e25")
+	)
+	(fp_line
+		(start 1 -0.2)
+		(end 1 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdd49569-e230-49da-a97e-133139caecb1")
+	)
+	(fp_arc
+		(start -0.75 1.6)
+		(mid -0.7 1.65)
+		(end -0.75 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15e8e604-97ce-41d4-bea2-c1423c2e5f89")
+	)
+	(fp_arc
+		(start -0.75 1.7)
+		(mid -0.8 1.65)
+		(end -0.75 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efe9ebca-067e-4ad7-a4a7-0419e207b667")
+	)
+	(fp_line
+		(start -2.05 -2.2)
+		(end 2.05 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7aaeda8-ecb1-48e6-8fd9-86520ed371bc")
+	)
+	(fp_line
+		(start -2.05 2.2)
+		(end -2.05 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c2d2712-621b-46ac-9dfb-1b294377e23a")
+	)
+	(fp_line
+		(start 2.05 -2.2)
+		(end 2.05 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bba3a917-d3bf-4083-b5a6-5c86be62ebe3")
+	)
+	(fp_line
+		(start 2.05 2.2)
+		(end -2.05 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "360bd2bc-d46a-4b4e-aeff-d1bdf718a7c2")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c397fa6-9a4b-473c-b8f5-640b1f92151b")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "851798df-73ba-4bb2-bbb4-9ce61952c21f")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9baecd07-2c33-4963-bab5-28c31a16ccfc")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab708d2b-6468-4212-a6c4-8134261d66d0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.06 3.24 0)
+		(layer "F.Fab")
+		(uuid "4a784ae0-997b-44d6-8833-eed67f861585")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15875)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0.9 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5770ae72-f105-44f1-8e62-bf6161da77e3")
+	)
+	(pad "2" smd rect
+		(at 0 0.9)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "813060f8-994a-4193-b610-4599e8b28064")
+	)
+	(pad "3" smd rect
+		(at 0.75 0.9 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7c6e9e5-b48d-4537-8e26-895a25fa13f3")
+	)
+	(pad "4" smd rect
+		(at 0.75 -0.9 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33497f47-f572-4760-aeff-06d9d33e3ada")
+	)
+	(pad "5" smd rect
+		(at 0 -0.9)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c3fd7ad6-77a4-45c6-be94-665ef4286bbf")
+	)
+	(pad "6" smd rect
+		(at -0.75 -0.9 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e085e972-1552-46e2-b760-9d1324ede4d4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/NX138AKSX.stp"
+		(offset
+			(xyz -1.05 1.6 -0.8)
+		)
+		(scale
+			(xyz 1.1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

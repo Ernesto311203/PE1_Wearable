@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wearable")(type "KiCad")(uri "${KIPRJMOD}/Symbols/wearable.kicad_sym")(options "")(descr "Common Library for Symbols - Electronic Project 2"))
+)

@@ -1,0 +1,216 @@
+(footprint "OSC_SIT9003AC-23-18EB-24.000000T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FPGA Oscillator 24 MHz")
+	(property "Reference" "REF**"
+		(at 1.375 -2.885 0)
+		(layer "F.SilkS")
+		(uuid "162db242-4bb4-44ba-9611-2f5967db20d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OSC_SIT9003AC-23-18EB-24.000000T"
+		(at 18.52 2.885 0)
+		(layer "F.Fab")
+		(uuid "9a9da615-85ed-412d-84cf-9792a2307f2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc39795b-7b85-4420-a84e-e5ec8fb0d480")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64576fae-9c03-4a0c-b6a0-8045aba970fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.08)
+		(end -1.25 0.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53deb8ac-d832-4047-a34f-45cd9ecbe240")
+	)
+	(fp_line
+		(start 1.25 -0.08)
+		(end 1.25 0.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "747c5c56-bdb0-464c-a009-12fa68b9d53b")
+	)
+	(fp_circle
+		(center -2.3 -1.1)
+		(end -2.2 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e157a3ba-1f5d-4c3c-8a6e-9c806c23727a")
+	)
+	(fp_line
+		(start -1.8 -2.05)
+		(end -1.8 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24e3f081-1219-4408-8718-994f47ad4237")
+	)
+	(fp_line
+		(start -1.8 -2.05)
+		(end 1.8 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04226353-5490-4158-b6e6-c676e7b21f2c")
+	)
+	(fp_line
+		(start 1.8 -2.05)
+		(end 1.8 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "918eb6de-4ce7-4373-96fa-b84658e1b6d4")
+	)
+	(fp_line
+		(start 1.8 2.05)
+		(end -1.8 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3afe989f-c657-41c5-a56a-284fc6f03b95")
+	)
+	(fp_line
+		(start -1.25 -1.6)
+		(end -1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee101849-964d-456d-89ae-f923a4fe7b2c")
+	)
+	(fp_line
+		(start -1.25 -1.6)
+		(end 1.25 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f28a54c9-67b1-4df0-ad72-46f9009b8b11")
+	)
+	(fp_line
+		(start 1.25 -1.6)
+		(end 1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f98e8c6d-2ab4-4bdb-a76a-27aba56ab555")
+	)
+	(fp_line
+		(start 1.25 1.6)
+		(end -1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f7d78e5-0cb2-4a03-85b5-9ec15e5b7f68")
+	)
+	(fp_circle
+		(center -2.3 -1.1)
+		(end -2.2 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a18ee1c7-941b-4c29-9039-1e103d1c0dc4")
+	)
+	(pad "1" smd rect
+		(at -0.95 -1.1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9488314c-2908-4320-a5e9-d5ac459e49b4")
+	)
+	(pad "2" smd rect
+		(at -0.95 1.1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6bdbeeef-ffd2-427d-a098-3434ed5cbdfa")
+	)
+	(pad "3" smd rect
+		(at 0.95 1.1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "076d194b-7f3e-449d-ac2d-78263a44d06c")
+	)
+	(pad "4" smd rect
+		(at 0.95 -1.1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ec5b27c5-4b14-475e-b745-ed86fe335f1e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/SIT9003AC-23-18EB-24.000000T.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

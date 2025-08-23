@@ -1,0 +1,181 @@
+(footprint "BEADC2112X105N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PE-0805FB121STaaa")
+	(tags "Ferrite Bead")
+	(property "Reference" "FB**"
+		(at 0.15 -1.86 0)
+		(layer "F.SilkS")
+		(uuid "27fa1433-4119-4fdb-a36f-3a878851af77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15875)
+			)
+		)
+	)
+	(property "Value" "BEADC2112X105N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0f41e565-2153-4d65-b0a8-f6b7ba0323b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07580768-940a-4274-87b6-67803f4d25ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c780be92-79d1-428e-9c23-f736f40e39cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.525)
+		(end 0 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27becda6-8d7f-4c42-9a8b-34715b976c67")
+	)
+	(fp_line
+		(start -1.75 -1)
+		(end 1.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f413b15-0a89-436e-8301-9c9421e44bf2")
+	)
+	(fp_line
+		(start -1.75 1)
+		(end -1.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "545a9832-4771-4e79-8268-0371487e7086")
+	)
+	(fp_line
+		(start 1.75 -1)
+		(end 1.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3173a45f-9ffc-4b8d-9947-648344c970b6")
+	)
+	(fp_line
+		(start 1.75 1)
+		(end -1.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4db6ed2-a135-4ff1-8383-7767e8dac1ce")
+	)
+	(fp_line
+		(start -1.05 -0.625)
+		(end 1.05 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd28e239-c033-4b8b-9b6e-118aab381732")
+	)
+	(fp_line
+		(start -1.05 0.625)
+		(end -1.05 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cb1a9f5-336b-4a7f-bc39-6349b6329069")
+	)
+	(fp_line
+		(start 1.05 -0.625)
+		(end 1.05 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddffc2c8-c957-4955-b1da-14ea06e1bc4e")
+	)
+	(fp_line
+		(start 1.05 0.625)
+		(end -1.05 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "771b00d0-b312-41b9-bd1a-84b6d65ea6e9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.24 0)
+		(layer "F.Fab")
+		(uuid "b1691090-9c13-46f7-b492-3581ced029bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15875)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 1.2 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7392ace0-8bc9-4b76-946d-5728b4abe70f")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 1.2 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3ef931c-0329-47fb-8294-00ca4c21fada")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/wearable.pretty/PE-0805FB121ST.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
